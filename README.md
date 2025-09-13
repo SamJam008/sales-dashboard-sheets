@@ -35,28 +35,38 @@ I used a Dunder-Mufflin Paper Company dataset (~1K+ records) with the following 
 
 ---
 
-##  Key Insights
-- **Regional Profit Leakage:** South region shows frequent negative profits despite strong sales.  
-- **Seasonal Spikes:** Q4 consistently outperforms other quarters, driven by Electronics.  
-- **Product Trends:** Chairs & Phones together drive ~40% of revenue but have volatile margins.  
+## Insights  
+
+The Sales Dashboard highlights actionable trends and anomalies across products, categories, and regions:  
+
+- **Regional Performance**: Clear visibility into which regions drive the majority of revenue, alongside identification of underperforming regions with low or negative profit margins.  
+- **Category Trends**: Product categories reveal seasonal spikes in demand. Some categories contribute strong revenue but show weak profitability, signaling potential profit leakage.  
+- **Top Products**: Ranking of products by sales volume and revenue makes it easy to spot high-value contributors, while also flagging products that sell well but erode margins.  
+- **Revenue & Profit Over Time**: Time-series charts display seasonal cycles and highlight periods of growth versus decline, supporting better forecasting and planning.  
+- **Anomaly Detection**: Conditional formatting surfaces negative profit transactions and unusual performance outliers, ensuring quick attention to problem areas.  
+
 
 ---
 
 ##  Deliverables
-- [ Live Dashboard (Google Sheets)](INSERT_YOUR_LINK_HERE)  
-- [ Dataset (CSV)](./data/sales_dataset.csv)  
+- [ Live Dashboard (Google Sheets)](https://docs.google.com/spreadsheets/d/1SnlmyJ19LUXk3nko8yYqmxbrp_CMVKUhaTcp1hHv7qs/edit?usp=sharing)  
+- [ Dataset (CSV)](./Dunder Mifflin Sales Dashboard- DATA.csv)  
 - [ README (this file)](./README.md)  
 
 ---
+## Folder Structure  
 
-## 🛠 How to Reproduce
-1. Download dataset (`CSV` provided in repo).  
-2. Import into **Google Sheets**.  
-3. Build pivot tables → add slicers → insert charts.  
-4. Apply conditional formatting for anomalies (negative profit, outliers).  
-5. Arrange visuals in a clean **Dashboard sheet**.  
+```
+/sales-dashboard/
+  ├ data/              ← raw dataset (CSV or Sheets link)
+  ├ images/            ← screenshots for README (optional)
+  ├ dashboard/         ← Google Sheets link (if exported)
+  └ README.md
+``` 
+## References  
 
+- Google Sheets documentation: QUERY, FILTER, SUMIFS, Data Validation, Charts  
+- Google Apps Script documentation 
 ---
 
-##  Resume Line
-> **“Developed an interactive sales dashboard on 1K+ records in Google Sheets, leveraging pivot tables, slicers, and anomaly flags to uncover regional profit leakage and seasonal demand spikes.”**
+

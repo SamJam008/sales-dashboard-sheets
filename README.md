@@ -50,7 +50,7 @@ The Sales Dashboard highlights actionable trends and anomalies across products, 
 
 ##  Deliverables
 - [ Live Dashboard (Google Sheets)](https://docs.google.com/spreadsheets/d/1SnlmyJ19LUXk3nko8yYqmxbrp_CMVKUhaTcp1hHv7qs/edit?usp=sharing)  
-- [ Dataset (CSV)](./Dunder Mifflin Sales Dashboard- DATA.csv)  
+- [ Dataset (CSV)](./Dunder_Mifflin_Sales_Dashboard-DATA.csv)  
 - [ README (this file)](./README.md)  
 
 ---

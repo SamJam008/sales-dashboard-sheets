@@ -27,11 +27,11 @@ I used a Dunder-Mufflin Paper Company dataset (~1K+ records) with the following 
 ### Full Dashboard
 ![Dashboard Overview](./images/dashboard_overview.png)
 
-### Slicer Example
-![Filtered by Region](./images/slicer_example.png)
+### Revenue Trends
+![Filtered by Region](./images/revenue_trend.png)
 
-### Anomaly Highlight
-![Negative Profit Highlight](./images/anomaly_example.png)
+### Sales by Sales Rep
+![Negative Profit Highlight](./images/profit_by_region.png)
 
 ---
 
